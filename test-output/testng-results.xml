@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="0" failed="9" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-12T18:11:30 GMT" name="testsuite" finished-at="2023-12-12T18:11:30 GMT" duration-ms="292">
+    <groups>
+      <group name="regression">
+        <method signature="AccountLoginPageTest.verifyThatUserShouldLoginAndLogoutSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.AccountLoginPageTest@2d7275fc]" name="verifyThatUserShouldLoginAndLogoutSuccessfully" class="com.tutorialsninja.demo.testsuite.AccountLoginPageTest"/>
+        <method signature="AccountLoginPageTest.verifyUserShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.AccountLoginPageTest@2d7275fc]" name="verifyUserShouldNavigateToLoginPageSuccessfully" class="com.tutorialsninja.demo.testsuite.AccountLoginPageTest"/>
+        <method signature="AccountRegisterPageTest.verifyThatUserShouldRegisterAccountSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.AccountRegisterPageTest@7f3b84b8]" name="verifyThatUserShouldRegisterAccountSuccessfully" class="com.tutorialsninja.demo.testsuite.AccountRegisterPageTest"/>
+        <method signature="AccountRegisterPageTest.verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.AccountRegisterPageTest@7f3b84b8]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" class="com.tutorialsninja.demo.testsuite.AccountRegisterPageTest"/>
+        <method signature="DesktopsPageTest.verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.tutorialsninja.demo.testsuite.DesktopsPageTest@57a3af25]" name="verifyProductAddedToShoppingCartSuccessFully" class="com.tutorialsninja.demo.testsuite.DesktopsPageTest"/>
+        <method signature="DesktopsPageTest.verifyProductArrangeInAlphabeticalOrder()[pri:0, instance:com.tutorialsninja.demo.testsuite.DesktopsPageTest@57a3af25]" name="verifyProductArrangeInAlphabeticalOrder" class="com.tutorialsninja.demo.testsuite.DesktopsPageTest"/>
+        <method signature="LaptopsAndNotebooksPageTest.verifyProductsPriceDisplayHighToLowSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksPageTest@6069db50]" name="verifyProductsPriceDisplayHighToLowSuccessfully" class="com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksPageTest"/>
+        <method signature="LaptopsAndNotebooksPageTest.verifyThatUserPlaceOrderSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksPageTest@6069db50]" name="verifyThatUserPlaceOrderSuccessfully" class="com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksPageTest"/>
+        <method signature="TopMenuTest.verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.TopMenuTest@4efbca5a]" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" class="com.tutorialsninja.demo.testsuite.TopMenuTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AccountLoginPageTest.verifyThatUserShouldLoginAndLogoutSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.AccountLoginPageTest@2d7275fc]" name="verifyThatUserShouldLoginAndLogoutSuccessfully" class="com.tutorialsninja.demo.testsuite.AccountLoginPageTest"/>
+        <method signature="AccountLoginPageTest.verifyUserShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.AccountLoginPageTest@2d7275fc]" name="verifyUserShouldNavigateToLoginPageSuccessfully" class="com.tutorialsninja.demo.testsuite.AccountLoginPageTest"/>
+        <method signature="AccountRegisterPageTest.verifyThatUserShouldRegisterAccountSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.AccountRegisterPageTest@7f3b84b8]" name="verifyThatUserShouldRegisterAccountSuccessfully" class="com.tutorialsninja.demo.testsuite.AccountRegisterPageTest"/>
+        <method signature="AccountRegisterPageTest.verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.AccountRegisterPageTest@7f3b84b8]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" class="com.tutorialsninja.demo.testsuite.AccountRegisterPageTest"/>
+        <method signature="DesktopsPageTest.verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.tutorialsninja.demo.testsuite.DesktopsPageTest@57a3af25]" name="verifyProductAddedToShoppingCartSuccessFully" class="com.tutorialsninja.demo.testsuite.DesktopsPageTest"/>
+        <method signature="DesktopsPageTest.verifyProductArrangeInAlphabeticalOrder()[pri:0, instance:com.tutorialsninja.demo.testsuite.DesktopsPageTest@57a3af25]" name="verifyProductArrangeInAlphabeticalOrder" class="com.tutorialsninja.demo.testsuite.DesktopsPageTest"/>
+        <method signature="LaptopsAndNotebooksPageTest.verifyProductsPriceDisplayHighToLowSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksPageTest@6069db50]" name="verifyProductsPriceDisplayHighToLowSuccessfully" class="com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksPageTest"/>
+        <method signature="LaptopsAndNotebooksPageTest.verifyThatUserPlaceOrderSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksPageTest@6069db50]" name="verifyThatUserPlaceOrderSuccessfully" class="com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksPageTest"/>
+        <method signature="TopMenuTest.verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.TopMenuTest@4efbca5a]" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" class="com.tutorialsninja.demo.testsuite.TopMenuTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="AccountLoginPageTest.verifyUserShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.AccountLoginPageTest@2d7275fc]" name="verifyUserShouldNavigateToLoginPageSuccessfully" class="com.tutorialsninja.demo.testsuite.AccountLoginPageTest"/>
+        <method signature="AccountRegisterPageTest.verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.AccountRegisterPageTest@7f3b84b8]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" class="com.tutorialsninja.demo.testsuite.AccountRegisterPageTest"/>
+        <method signature="DesktopsPageTest.verifyProductArrangeInAlphabeticalOrder()[pri:0, instance:com.tutorialsninja.demo.testsuite.DesktopsPageTest@57a3af25]" name="verifyProductArrangeInAlphabeticalOrder" class="com.tutorialsninja.demo.testsuite.DesktopsPageTest"/>
+        <method signature="LaptopsAndNotebooksPageTest.verifyProductsPriceDisplayHighToLowSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksPageTest@6069db50]" name="verifyProductsPriceDisplayHighToLowSuccessfully" class="com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksPageTest"/>
+        <method signature="TopMenuTest.verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.TopMenuTest@4efbca5a]" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" class="com.tutorialsninja.demo.testsuite.TopMenuTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-12-12T18:11:30 GMT" name="LoginPageTest" finished-at="2023-12-12T18:11:30 GMT" duration-ms="292">
+      <class name="com.tutorialsninja.demo.testsuite.AccountLoginPageTest">
+        <test-method signature="verifyThatUserShouldLoginAndLogoutSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.AccountLoginPageTest@2d7275fc]" started-at="2023-12-12T18:11:30 GMT" name="verifyThatUserShouldLoginAndLogoutSuccessfully" finished-at="2023-12-12T18:11:30 GMT" duration-ms="13" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.tutorialsninja.demo.pages.HomePage.clickOnMyQAccountTab()" because "this.homePage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.tutorialsninja.demo.pages.HomePage.clickOnMyQAccountTab()" because "this.homePage" is null
+at com.tutorialsninja.demo.testsuite.AccountLoginPageTest.verifyThatUserShouldLoginAndLogoutSuccessfully(AccountLoginPageTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldLoginAndLogoutSuccessfully -->
+        <test-method signature="verifyUserShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.AccountLoginPageTest@2d7275fc]" started-at="2023-12-12T18:11:30 GMT" name="verifyUserShouldNavigateToLoginPageSuccessfully" finished-at="2023-12-12T18:11:30 GMT" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.tutorialsninja.demo.pages.HomePage.clickOnMyQAccountTab()" because "this.homePage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.tutorialsninja.demo.pages.HomePage.clickOnMyQAccountTab()" because "this.homePage" is null
+at com.tutorialsninja.demo.testsuite.AccountLoginPageTest.verifyUserShouldNavigateToLoginPageSuccessfully(AccountLoginPageTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToLoginPageSuccessfully -->
+      </class> <!-- com.tutorialsninja.demo.testsuite.AccountLoginPageTest -->
+      <class name="com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksPageTest">
+        <test-method signature="verifyProductsPriceDisplayHighToLowSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksPageTest@6069db50]" started-at="2023-12-12T18:11:30 GMT" name="verifyProductsPriceDisplayHighToLowSuccessfully" finished-at="2023-12-12T18:11:30 GMT" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.tutorialsninja.demo.pages.HomePage.mouseHoverOnCurrencyDropDownAndClick()" because "this.homePage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.tutorialsninja.demo.pages.HomePage.mouseHoverOnCurrencyDropDownAndClick()" because "this.homePage" is null
+at com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksPageTest.verifyProductsPriceDisplayHighToLowSuccessfully(LaptopsAndNotebooksPageTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsPriceDisplayHighToLowSuccessfully -->
+        <test-method signature="verifyThatUserPlaceOrderSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksPageTest@6069db50]" started-at="2023-12-12T18:11:30 GMT" name="verifyThatUserPlaceOrderSuccessfully" finished-at="2023-12-12T18:11:30 GMT" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.tutorialsninja.demo.pages.HomePage.mouseHoverOnCurrencyDropDownAndClick()" because "this.homePage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.tutorialsninja.demo.pages.HomePage.mouseHoverOnCurrencyDropDownAndClick()" because "this.homePage" is null
+at com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksPageTest.verifyThatUserPlaceOrderSuccessfully(LaptopsAndNotebooksPageTest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserPlaceOrderSuccessfully -->
+      </class> <!-- com.tutorialsninja.demo.testsuite.LaptopsAndNotebooksPageTest -->
+      <class name="com.tutorialsninja.demo.testsuite.AccountRegisterPageTest">
+        <test-method signature="verifyThatUserShouldRegisterAccountSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.AccountRegisterPageTest@7f3b84b8]" started-at="2023-12-12T18:11:30 GMT" name="verifyThatUserShouldRegisterAccountSuccessfully" finished-at="2023-12-12T18:11:30 GMT" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.tutorialsninja.demo.pages.HomePage.mouseHoverOnCurrencyDropDownAndClick()" because "this.homePage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.tutorialsninja.demo.pages.HomePage.mouseHoverOnCurrencyDropDownAndClick()" because "this.homePage" is null
+at com.tutorialsninja.demo.testsuite.AccountRegisterPageTest.verifyThatUserShouldRegisterAccountSuccessfully(AccountRegisterPageTest.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldRegisterAccountSuccessfully -->
+        <test-method signature="verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.AccountRegisterPageTest@7f3b84b8]" started-at="2023-12-12T18:11:30 GMT" name="verifyUserShouldNavigateToRegisterPageSuccessfully" finished-at="2023-12-12T18:11:30 GMT" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.tutorialsninja.demo.pages.HomePage.clickOnMyQAccountTab()" because "this.homePage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.tutorialsninja.demo.pages.HomePage.clickOnMyQAccountTab()" because "this.homePage" is null
+at com.tutorialsninja.demo.testsuite.AccountRegisterPageTest.verifyUserShouldNavigateToRegisterPageSuccessfully(AccountRegisterPageTest.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToRegisterPageSuccessfully -->
+      </class> <!-- com.tutorialsninja.demo.testsuite.AccountRegisterPageTest -->
+      <class name="com.tutorialsninja.demo.testsuite.DesktopsPageTest">
+        <test-method signature="verifyProductAddedToShoppingCartSuccessFully()[pri:0, instance:com.tutorialsninja.demo.testsuite.DesktopsPageTest@57a3af25]" started-at="2023-12-12T18:11:30 GMT" name="verifyProductAddedToShoppingCartSuccessFully" finished-at="2023-12-12T18:11:30 GMT" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.tutorialsninja.demo.pages.HomePage.mouseHoverOnCurrencyDropDownAndClick()" because "this.homePage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.tutorialsninja.demo.pages.HomePage.mouseHoverOnCurrencyDropDownAndClick()" because "this.homePage" is null
+at com.tutorialsninja.demo.testsuite.DesktopsPageTest.verifyProductAddedToShoppingCartSuccessFully(DesktopsPageTest.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedToShoppingCartSuccessFully -->
+        <test-method signature="verifyProductArrangeInAlphabeticalOrder()[pri:0, instance:com.tutorialsninja.demo.testsuite.DesktopsPageTest@57a3af25]" started-at="2023-12-12T18:11:30 GMT" name="verifyProductArrangeInAlphabeticalOrder" finished-at="2023-12-12T18:11:30 GMT" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.tutorialsninja.demo.pages.DesktopsPage.mouseHoverOnDesktopsAndClick()" because "this.deskTopsPage" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.tutorialsninja.demo.pages.DesktopsPage.mouseHoverOnDesktopsAndClick()" because "this.deskTopsPage" is null
+at com.tutorialsninja.demo.testsuite.DesktopsPageTest.verifyProductArrangeInAlphabeticalOrder(DesktopsPageTest.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductArrangeInAlphabeticalOrder -->
+      </class> <!-- com.tutorialsninja.demo.testsuite.DesktopsPageTest -->
+      <class name="com.tutorialsninja.demo.testsuite.TopMenuTest">
+        <test-method signature="verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testsuite.TopMenuTest@4efbca5a]" started-at="2023-12-12T18:11:30 GMT" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" finished-at="2023-12-12T18:11:30 GMT" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.tutorialsninja.demo.pages.DesktopsPage.mouseHoverOnDesktopsAndClick()" because "this.deskTops" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.tutorialsninja.demo.pages.DesktopsPage.mouseHoverOnDesktopsAndClick()" because "this.deskTops" is null
+at com.tutorialsninja.demo.testsuite.TopMenuTest.verifyUserShouldNavigateToDesktopsPageSuccessfully(TopMenuTest.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToDesktopsPageSuccessfully -->
+      </class> <!-- com.tutorialsninja.demo.testsuite.TopMenuTest -->
+    </test> <!-- LoginPageTest -->
+  </suite> <!-- testsuite -->
+</testng-results>
